@@ -1,0 +1,210 @@
+body {
+    background: #fff;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 80px;
+}
+
+header.logo {
+    margin-left: 80px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: crimson;
+}
+
+header.navbar a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+.menu {
+    font-size: 1.2 rem;
+    margin-right: 2.5rem;
+}
+
+.menu_child {
+    text-decoration: none;
+    color: red;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+.noidung {
+    margin-top: 80px;
+    margin-left: 43%;
+}
+
+.container {
+    padding: 20px 120px;
+}
+
+.container .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container .box-container .box {
+    flex: 1 1 25rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.container .box-container .box .image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.container .box-container .box .container_nd {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+.container .box-container .box .container_nd h2 {
+    position: absolute;
+    bottom: 0;
+    left: 175px;
+}
+
+footer {
+    text-align: center;
+}
+
+.nd {
+    font-size: 20px;
+    color: #666;
+}
+
+.nd span {
+    color: red;
+}
+
+.font {
+    color: black;
+}
+
+.fa {
+    padding: 13px;
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.fa::hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/* .fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+} */
+
+
+/* CSS Home */
+
+.div_search {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.div_search input {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.div_search button {
+    height: 30px;
+    background-color: palevioletred;
+}
+
+.exFood {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.food_div {
+    padding: 30px;
+    text-align: center;
+}
+
+.exFood h2 {
+    transform: translate(0, -300%);
+}
+
+.exFood img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.food {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+:root {
+    --text-padding: 0 5% 5% 5%;
+}
+
+.FoodMenu img {
+    padding: 30px;
+    border-radius: 50px;
+    max-width: 100px;
+}
+
+.FoodMenu button {
+    background-color: rgb(228, 42, 88);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 20%;
+}
+
+.FoodMenu {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 40% 40% 40%;
+    justify-content: center;
+    column-gap: 2%;
+    row-gap: 5%;
+    padding-bottom: 10%;
+}
